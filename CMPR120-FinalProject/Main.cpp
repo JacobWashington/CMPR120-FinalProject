@@ -24,8 +24,6 @@ int main() {
 		cout << "\nSelection: ";
 		cin >> selection;
 
-		cout << selection;
-
 		/**** DECISION LOGIC ****/
 
 		switch (selection) {
@@ -50,9 +48,10 @@ int main() {
 			break;
 		default:
 			cout << "\n\tPlease make a valid selection.\n";
-			cin.clear();
-			cin.ignore(1000, '\n');
 		}
+
+		cin.clear();
+		cin.ignore(1000, '\n');
 
 	} while (continueProgram);
 
