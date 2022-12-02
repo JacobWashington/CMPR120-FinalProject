@@ -1,2 +1,5 @@
 ﻿  Main.cpp
+C:\Users\jbenj\OneDrive\Desktop\School\Fall2022\CMPR120\Labs\CMPR120-FinalProject\CMPR120-FinalProject\Main.cpp(43,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jbenj\OneDrive\Desktop\School\Fall2022\CMPR120\Labs\CMPR120-FinalProject\CMPR120-FinalProject\Main.cpp(43,43): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\jbenj\OneDrive\Desktop\School\Fall2022\CMPR120\Labs\CMPR120-FinalProject\CMPR120-FinalProject\Main.cpp(219,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   CMPR120-FinalProject.vcxproj -> C:\Users\jbenj\OneDrive\Desktop\School\Fall2022\CMPR120\Labs\CMPR120-FinalProject\x64\Debug\CMPR120-FinalProject.exe
