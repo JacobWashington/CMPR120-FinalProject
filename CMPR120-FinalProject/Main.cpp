@@ -152,10 +152,10 @@ void menu(
 		getPlayerData();
 		break;
 	case 5:
-		cout << "\nPlease enter your name: \n";
-		getline(cin, userName);
 		cin.clear();
 		cin.ignore(1000, '\n');
+		cout << "\nPlease enter your name: \n";
+		getline(cin, userName);
 		addPlayerData(balance, numGamesPlayed, totalCorrectAnswers, totalWrongAnswers, totalPointsEarned, totalCreditsLost, userName);
 		break;
 	case 6:
@@ -320,6 +320,7 @@ void addPlayerData(
 	if (playerStatsFile.is_open()) {
 		playerStatsFile << __DATE__ << '\t';
 		playerStatsFile << __TIME__ << '\n';
+		playerStatsFile << userName << '\n';
 		playerStatsFile << "Available Credit: " << balance << '\n';
 		playerStatsFile << "Games Played: " << numGamesPlayed << '\n';
 		playerStatsFile << "Correct Responses: " << totalCorrectAnswers << '\n';
